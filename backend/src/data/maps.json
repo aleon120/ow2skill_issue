@@ -1,0 +1,422 @@
+[
+  {
+    "id": "antarctic_peninsula",
+    "name": "Antarctic Peninsula",
+    "type": "Control",
+    "tags": [
+      "mixed",
+      "chokepoints",
+      "high_ground"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "busan",
+    "name": "Busan",
+    "type": "Control",
+    "tags": [
+      "mixed",
+      "flank_routes",
+      "high_ground"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "ilios",
+    "name": "Ilios",
+    "type": "Control",
+    "tags": [
+      "open",
+      "flank_routes",
+      "close"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "lijiang_tower",
+    "name": "Lijiang Tower",
+    "type": "Control",
+    "tags": [
+      "close",
+      "chokepoints",
+      "flank_routes"
+    ],
+    "range": [
+      "close"
+    ]
+  },
+  {
+    "id": "nepal",
+    "name": "Nepal",
+    "type": "Control",
+    "tags": [
+      "chokepoints",
+      "high_ground",
+      "mixed"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "oasis",
+    "name": "Oasis",
+    "type": "Control",
+    "tags": [
+      "open",
+      "long",
+      "flank_routes"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "samoa",
+    "name": "Samoa",
+    "type": "Control",
+    "tags": [
+      "mixed",
+      "close",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "circuit_royal",
+    "name": "Circuit Royal",
+    "type": "Escort",
+    "tags": [
+      "open",
+      "long",
+      "chokepoints"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "dorado",
+    "name": "Dorado",
+    "type": "Escort",
+    "tags": [
+      "chokepoints",
+      "close",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "type": "Escort",
+    "tags": [
+      "open",
+      "long",
+      "mixed"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "junkertown",
+    "name": "Junkertown",
+    "type": "Escort",
+    "tags": [
+      "open",
+      "long",
+      "high_ground"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "rialto",
+    "name": "Rialto",
+    "type": "Escort",
+    "tags": [
+      "mixed",
+      "open",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "route_66",
+    "name": "Route 66",
+    "type": "Escort",
+    "tags": [
+      "open",
+      "chokepoints",
+      "mixed"
+    ],
+    "range": [
+      "close",
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "shambali_monastery",
+    "name": "Shambali Monastery",
+    "type": "Escort",
+    "tags": [
+      "chokepoints",
+      "high_ground",
+      "mixed"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "watchpoint_gibraltar",
+    "name": "Watchpoint: Gibraltar",
+    "type": "Escort",
+    "tags": [
+      "open",
+      "chokepoints",
+      "long"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "blizzard_world",
+    "name": "Blizzard World",
+    "type": "Hybrid",
+    "tags": [
+      "mixed",
+      "chokepoints",
+      "close"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "eichenwalde",
+    "name": "Eichenwalde",
+    "type": "Hybrid",
+    "tags": [
+      "chokepoints",
+      "close",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "hollywood",
+    "name": "Hollywood",
+    "type": "Hybrid",
+    "tags": [
+      "mixed",
+      "chokepoints",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "kings_row",
+    "name": "King's Row",
+    "type": "Hybrid",
+    "tags": [
+      "chokepoints",
+      "close",
+      "mixed"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "midtown",
+    "name": "Midtown",
+    "type": "Hybrid",
+    "tags": [
+      "close",
+      "flank_routes",
+      "mixed"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "paraiso",
+    "name": "Paraíso",
+    "type": "Hybrid",
+    "tags": [
+      "mixed",
+      "flank_routes",
+      "chokepoints"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "numbani",
+    "name": "Numbani",
+    "type": "Hybrid",
+    "tags": [
+      "open",
+      "mixed",
+      "high_ground"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "colosseo",
+    "name": "Colosseo",
+    "type": "Push",
+    "tags": [
+      "mixed",
+      "close",
+      "high_ground"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "esperanca",
+    "name": "Esperança",
+    "type": "Push",
+    "tags": [
+      "open",
+      "high_ground",
+      "mixed"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "new_queen_street",
+    "name": "New Queen Street",
+    "type": "Push",
+    "tags": [
+      "mixed",
+      "close",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "runasapi",
+    "name": "Runasapi",
+    "type": "Push",
+    "tags": [
+      "mixed",
+      "high_ground",
+      "chokepoints"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "new_junk_city",
+    "name": "New Junk City",
+    "type": "Flashpoint",
+    "tags": [
+      "open",
+      "close",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  },
+  {
+    "id": "suravasa",
+    "name": "Suravasa",
+    "type": "Flashpoint",
+    "tags": [
+      "mixed",
+      "open",
+      "high_ground"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "aatlis",
+    "name": "Aatlis",
+    "type": "Flashpoint",
+    "tags": [
+      "open",
+      "mixed",
+      "flank_routes"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ]
+  },
+  {
+    "id": "neon_junction",
+    "name": "Neon Junction",
+    "type": "Hybrid",
+    "tags": [
+      "close",
+      "chokepoints",
+      "flank_routes"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ]
+  }
+]

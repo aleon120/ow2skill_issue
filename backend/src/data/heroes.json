@@ -1,0 +1,3217 @@
+[
+  {
+    "id": "dva",
+    "name": "D.Va",
+    "role": "tank",
+    "archetype": [
+      "dive",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "anti-dive-defuser",
+      "flying-target",
+      "mobile",
+      "protects-backline"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "dmon",
+      "echo",
+      "emre",
+      "freja",
+      "hanzo",
+      "illari",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "kiriko",
+      "mercy",
+      "pharah",
+      "sierra",
+      "sojourn",
+      "soldier76",
+      "sombra",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "brigitte",
+      "junker_queen",
+      "mei",
+      "mizuki",
+      "roadhog",
+      "symmetra",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "genji",
+      "jetpack_cat",
+      "juno",
+      "lucio",
+      "reinhardt",
+      "tracer",
+      "winston",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "open",
+      "flank_routes"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "aggressive",
+    "metaTier": "S",
+    "tankType": "dive"
+  },
+  {
+    "id": "doomfist",
+    "name": "Doomfist",
+    "role": "tank",
+    "archetype": [
+      "dive",
+      "brawl"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 5,
+    "tags": [
+      "dive",
+      "isolates-backline",
+      "punishes-clumping"
+    ],
+    "counters": [
+      "bastion",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "ana",
+      "anran",
+      "brigitte",
+      "cassidy",
+      "echo",
+      "jetpack_cat",
+      "junker_queen",
+      "junkrat",
+      "juno",
+      "lifeweaver",
+      "mauga",
+      "mei",
+      "mizuki",
+      "moira",
+      "orisa",
+      "pharah",
+      "roadhog",
+      "sierra",
+      "sombra",
+      "torbjorn",
+      "wuyang"
+    ],
+    "synergizesWith": [
+      "genji",
+      "kiriko",
+      "lucio",
+      "sombra",
+      "tracer",
+      "zarya"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "close"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "aggressive",
+    "metaTier": "B",
+    "tankType": "dive"
+  },
+  {
+    "id": "junker_queen",
+    "name": "Junker Queen",
+    "role": "tank",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 3,
+    "tags": [
+      "sustain-denial",
+      "anti-dive",
+      "self-heal"
+    ],
+    "counters": [
+      "cassidy",
+      "domina",
+      "doomfist",
+      "dva",
+      "hanzo",
+      "moira",
+      "roadhog",
+      "sigma",
+      "symmetra",
+      "vendetta",
+      "winston",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "ashe",
+      "echo",
+      "hazard",
+      "jetpack_cat",
+      "junkrat",
+      "kiriko",
+      "lucio",
+      "mei",
+      "mercy",
+      "mizuki",
+      "orisa",
+      "pharah",
+      "sierra",
+      "widowmaker",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "cassidy",
+      "emre",
+      "lifeweaver",
+      "lucio",
+      "mei",
+      "mizuki",
+      "moira",
+      "orisa",
+      "reaper",
+      "roadhog",
+      "shion",
+      "symmetra"
+    ],
+    "mapPreference": [
+      "close",
+      "chokepoints"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "aggressive",
+    "metaTier": "B",
+    "tankType": "brawl"
+  },
+  {
+    "id": "mauga",
+    "name": "Mauga",
+    "role": "tank",
+    "archetype": [
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "sustain",
+      "anti-shield",
+      "punishes-grouping"
+    ],
+    "counters": [
+      "brigitte",
+      "doomfist",
+      "hazard",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "lifeweaver",
+      "lucio",
+      "mercy",
+      "pharah",
+      "reinhardt",
+      "winston",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "ana",
+      "hanzo",
+      "reaper",
+      "sigma",
+      "sojourn",
+      "zenyatta"
+    ],
+    "synergizesWith": [
+      "bastion",
+      "brigitte",
+      "junkrat",
+      "lucio",
+      "mizuki",
+      "moira",
+      "orisa",
+      "reaper",
+      "shion",
+      "zarya"
+    ],
+    "mapPreference": [
+      "close",
+      "chokepoints"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "aggressive",
+    "metaTier": "A+",
+    "tankType": "brawl"
+  },
+  {
+    "id": "orisa",
+    "name": "Orisa",
+    "role": "tank",
+    "archetype": [
+      "poke",
+      "zone",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "projectile-block",
+      "anti-dive",
+      "zone-control"
+    ],
+    "counters": [
+      "anran",
+      "doomfist",
+      "hazard",
+      "junker_queen",
+      "ramattra",
+      "reinhardt",
+      "roadhog",
+      "torbjorn",
+      "vendetta",
+      "venture",
+      "winston",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "mei",
+      "sigma",
+      "zarya",
+      "zenyatta"
+    ],
+    "synergizesWith": [
+      "ana",
+      "ashe",
+      "domina",
+      "freja",
+      "illari",
+      "junker_queen",
+      "kiriko",
+      "mauga",
+      "reinhardt",
+      "sierra",
+      "sigma",
+      "sojourn",
+      "torbjorn",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "open"
+    ],
+    "metaWeight": 1,
+    "playstyle": "defensive",
+    "metaTier": "A",
+    "tankType": "poke"
+  },
+  {
+    "id": "ramattra",
+    "name": "Ramattra",
+    "role": "tank",
+    "archetype": [
+      "zone",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "area-denial",
+      "anti-dive",
+      "shield"
+    ],
+    "counters": [
+      "brigitte",
+      "dmon",
+      "domina",
+      "reinhardt",
+      "torbjorn",
+      "winston"
+    ],
+    "counteredBy": [
+      "ana",
+      "orisa",
+      "wuyang",
+      "zenyatta"
+    ],
+    "synergizesWith": [
+      "ashe",
+      "baptiste",
+      "hanzo",
+      "sigma",
+      "wuyang",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "mixed"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "defensive",
+    "metaTier": "A+",
+    "tankType": "poke"
+  },
+  {
+    "id": "reinhardt",
+    "name": "Reinhardt",
+    "role": "tank",
+    "archetype": [
+      "brawl"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 2,
+    "tags": [
+      "frontal-shield",
+      "chokepoint-holder",
+      "vulnerable-flanks"
+    ],
+    "counters": [
+      "brigitte",
+      "dmon",
+      "domina",
+      "sigma",
+      "zarya"
+    ],
+    "counteredBy": [
+      "bastion",
+      "echo",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "lucio",
+      "mauga",
+      "mizuki",
+      "orisa",
+      "pharah",
+      "ramattra",
+      "symmetra",
+      "torbjorn",
+      "widowmaker",
+      "wuyang",
+      "zenyatta"
+    ],
+    "synergizesWith": [
+      "ana",
+      "bastion",
+      "brigitte",
+      "cassidy",
+      "dva",
+      "hazard",
+      "lifeweaver",
+      "lucio",
+      "mei",
+      "mercy",
+      "mizuki",
+      "orisa",
+      "reaper",
+      "roadhog",
+      "shion",
+      "soldier76",
+      "torbjorn",
+      "winston",
+      "zarya"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "close"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "aggressive",
+    "metaTier": "B",
+    "tankType": "brawl"
+  },
+  {
+    "id": "roadhog",
+    "name": "Roadhog",
+    "role": "tank",
+    "archetype": [
+      "brawl",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "pick-potential",
+      "self-sustain",
+      "punishes-overextension"
+    ],
+    "counters": [
+      "anran",
+      "cassidy",
+      "doomfist",
+      "dva",
+      "hazard",
+      "moira",
+      "shion",
+      "symmetra",
+      "vendetta",
+      "winston",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "ana",
+      "ashe",
+      "freja",
+      "hanzo",
+      "junker_queen",
+      "orisa",
+      "reaper",
+      "sojourn",
+      "zenyatta"
+    ],
+    "synergizesWith": [
+      "baptiste",
+      "junker_queen",
+      "junkrat",
+      "moira",
+      "reinhardt",
+      "zarya"
+    ],
+    "mapPreference": [
+      "mixed",
+      "chokepoints"
+    ],
+    "metaWeight": 1,
+    "playstyle": "aggressive",
+    "metaTier": "A",
+    "tankType": "poke"
+  },
+  {
+    "id": "sigma",
+    "name": "Sigma",
+    "role": "tank",
+    "archetype": [
+      "zone",
+      "poke"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 1,
+    "tags": [
+      "area-denial",
+      "anti-dive",
+      "shield-block"
+    ],
+    "counters": [
+      "ana",
+      "bastion",
+      "cassidy",
+      "emre",
+      "hanzo",
+      "hazard",
+      "mauga",
+      "orisa",
+      "sierra",
+      "soldier76",
+      "torbjorn",
+      "wuyang",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "anran",
+      "brigitte",
+      "dmon",
+      "genji",
+      "junker_queen",
+      "lucio",
+      "moira",
+      "reinhardt",
+      "shion",
+      "sombra",
+      "symmetra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "ana",
+      "ashe",
+      "baptiste",
+      "bastion",
+      "domina",
+      "freja",
+      "hanzo",
+      "illari",
+      "lifeweaver",
+      "orisa",
+      "ramattra",
+      "sierra",
+      "sojourn",
+      "soldier76",
+      "widowmaker",
+      "zarya",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "open",
+      "chokepoints"
+    ],
+    "metaWeight": 1,
+    "playstyle": "defensive",
+    "metaTier": "A",
+    "tankType": "poke"
+  },
+  {
+    "id": "winston",
+    "name": "Winston",
+    "role": "tank",
+    "archetype": [
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 5,
+    "tags": [
+      "dive",
+      "isolates-backline",
+      "anti-flyer"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "domina",
+      "emre",
+      "freja",
+      "genji",
+      "hanzo",
+      "illari",
+      "juno",
+      "lifeweaver",
+      "shion",
+      "sierra",
+      "sigma",
+      "soldier76",
+      "widowmaker",
+      "zarya",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "bastion",
+      "brigitte",
+      "cassidy",
+      "hazard",
+      "junker_queen",
+      "mauga",
+      "orisa",
+      "pharah",
+      "ramattra",
+      "reaper",
+      "roadhog",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "anran",
+      "dva",
+      "echo",
+      "genji",
+      "jetpack_cat",
+      "juno",
+      "kiriko",
+      "lucio",
+      "reinhardt",
+      "sombra",
+      "tracer",
+      "zarya"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "open"
+    ],
+    "metaWeight": 1,
+    "playstyle": "aggressive",
+    "metaTier": "A",
+    "tankType": "dive"
+  },
+  {
+    "id": "wrecking_ball",
+    "name": "Wrecking Ball",
+    "role": "tank",
+    "archetype": [
+      "dive",
+      "brawl"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 5,
+    "tags": [
+      "dive",
+      "disruption",
+      "grouping-punish-for-enemy"
+    ],
+    "counters": [
+      "ashe",
+      "emre",
+      "hanzo",
+      "widowmaker"
+    ],
+    "counteredBy": [
+      "ana",
+      "brigitte",
+      "cassidy",
+      "echo",
+      "jetpack_cat",
+      "junker_queen",
+      "mauga",
+      "mizuki",
+      "moira",
+      "orisa",
+      "pharah",
+      "roadhog",
+      "sombra",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "brigitte",
+      "junkrat",
+      "lucio",
+      "moira",
+      "zarya"
+    ],
+    "mapPreference": [
+      "open",
+      "flank_routes"
+    ],
+    "metaWeight": 1,
+    "playstyle": "aggressive",
+    "metaTier": "A",
+    "tankType": "dive"
+  },
+  {
+    "id": "zarya",
+    "name": "Zarya",
+    "role": "tank",
+    "archetype": [
+      "brawl",
+      "zone"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "anti-dive",
+      "bubble-protect",
+      "high-damage-ult"
+    ],
+    "counters": [
+      "ana",
+      "anran",
+      "domina",
+      "dva",
+      "echo",
+      "freja",
+      "genji",
+      "hazard",
+      "junker_queen",
+      "junkrat",
+      "juno",
+      "orisa",
+      "pharah",
+      "shion",
+      "sierra",
+      "sigma",
+      "sojourn",
+      "sombra",
+      "symmetra",
+      "torbjorn",
+      "wuyang"
+    ],
+    "counteredBy": [
+      "ashe",
+      "bastion",
+      "brigitte",
+      "dmon",
+      "lifeweaver",
+      "mei",
+      "reaper",
+      "reinhardt",
+      "widowmaker",
+      "winston"
+    ],
+    "synergizesWith": [
+      "doomfist",
+      "junkrat",
+      "lucio",
+      "mauga",
+      "mei",
+      "moira",
+      "reinhardt",
+      "roadhog",
+      "sigma",
+      "symmetra",
+      "winston",
+      "wrecking_ball"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "close"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "defensive",
+    "metaTier": "A+",
+    "tankType": "brawl"
+  },
+  {
+    "id": "hazard",
+    "name": "Hazard",
+    "role": "tank",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 4,
+    "tags": [
+      "zone-denial",
+      "wall-control",
+      "isolates-backline"
+    ],
+    "counters": [
+      "ashe",
+      "hanzo",
+      "junker_queen",
+      "shion",
+      "widowmaker",
+      "winston"
+    ],
+    "counteredBy": [
+      "ana",
+      "echo",
+      "mauga",
+      "orisa",
+      "pharah",
+      "roadhog",
+      "sigma",
+      "torbjorn",
+      "zarya",
+      "zenyatta"
+    ],
+    "synergizesWith": [
+      "kiriko",
+      "lucio",
+      "mizuki",
+      "moira",
+      "reinhardt"
+    ],
+    "mapPreference": [
+      "mixed",
+      "close"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "aggressive",
+    "metaTier": "A+",
+    "tankType": "dive"
+  },
+  {
+    "id": "dmon",
+    "name": "D.Mon",
+    "role": "tank",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 4,
+    "tags": [
+      "melee-burst",
+      "mobile",
+      "self-shield",
+      "isolates-backline"
+    ],
+    "counters": [
+      "ana",
+      "anran",
+      "brigitte",
+      "cassidy",
+      "domina",
+      "mercy",
+      "shion",
+      "sigma",
+      "sombra",
+      "zarya"
+    ],
+    "counteredBy": [
+      "baptiste",
+      "bastion",
+      "dva",
+      "echo",
+      "illari",
+      "jetpack_cat",
+      "lifeweaver",
+      "mei",
+      "pharah",
+      "ramattra",
+      "reaper",
+      "reinhardt",
+      "symmetra",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "lucio",
+      "symmetra",
+      "torbjorn",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "close",
+      "chokepoints",
+      "flank_routes"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "aggressive",
+    "metaTier": "A+",
+    "tankType": "brawl"
+  },
+  {
+    "id": "ashe",
+    "name": "Ashe",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 2,
+    "tags": [
+      "hitscan",
+      "burst",
+      "anti-shield"
+    ],
+    "counters": [
+      "ana",
+      "bastion",
+      "brigitte",
+      "cassidy",
+      "domina",
+      "echo",
+      "jetpack_cat",
+      "junker_queen",
+      "junkrat",
+      "juno",
+      "mei",
+      "mercy",
+      "pharah",
+      "roadhog",
+      "sierra",
+      "torbjorn",
+      "zarya"
+    ],
+    "counteredBy": [
+      "dva",
+      "genji",
+      "hanzo",
+      "hazard",
+      "illari",
+      "kiriko",
+      "lucio",
+      "sombra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "widowmaker",
+      "winston",
+      "wrecking_ball"
+    ],
+    "synergizesWith": [
+      "domina",
+      "illari",
+      "mercy",
+      "orisa",
+      "ramattra",
+      "sigma",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "long",
+      "open"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "hitscan",
+    "metaTier": "B",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "bastion",
+    "name": "Bastion",
+    "role": "dps",
+    "archetype": [
+      "zone",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 1,
+    "tags": [
+      "sustained-damage",
+      "immobile",
+      "anti-shield"
+    ],
+    "counters": [
+      "brigitte",
+      "dmon",
+      "domina",
+      "jetpack_cat",
+      "mercy",
+      "pharah",
+      "reinhardt",
+      "winston",
+      "zarya"
+    ],
+    "counteredBy": [
+      "ana",
+      "ashe",
+      "baptiste",
+      "doomfist",
+      "echo",
+      "emre",
+      "freja",
+      "genji",
+      "hanzo",
+      "reaper",
+      "sigma",
+      "sojourn",
+      "tracer",
+      "widowmaker",
+      "wuyang"
+    ],
+    "synergizesWith": [
+      "baptiste",
+      "mauga",
+      "reinhardt",
+      "sigma"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "mixed"
+    ],
+    "metaWeight": 1,
+    "playstyle": "zone",
+    "metaTier": "A",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "cassidy",
+    "name": "Cassidy",
+    "role": "dps",
+    "archetype": [
+      "brawl",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "hitscan",
+      "burst",
+      "anti-mobility"
+    ],
+    "counters": [
+      "anran",
+      "doomfist",
+      "echo",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "lucio",
+      "mercy",
+      "moira",
+      "pharah",
+      "reaper",
+      "shion",
+      "sierra",
+      "sombra",
+      "symmetra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "winston",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "ashe",
+      "dmon",
+      "freja",
+      "hanzo",
+      "junker_queen",
+      "roadhog",
+      "sigma",
+      "widowmaker",
+      "wuyang"
+    ],
+    "synergizesWith": [
+      "junker_queen",
+      "lucio",
+      "moira",
+      "reinhardt"
+    ],
+    "mapPreference": [
+      "mixed",
+      "close"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "hitscan",
+    "metaTier": "S",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "echo",
+    "name": "Echo",
+    "role": "dps",
+    "archetype": [
+      "dive",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "flying",
+      "burst",
+      "isolates-backline"
+    ],
+    "counters": [
+      "bastion",
+      "brigitte",
+      "dmon",
+      "doomfist",
+      "hanzo",
+      "hazard",
+      "junker_queen",
+      "mei",
+      "mizuki",
+      "pharah",
+      "reaper",
+      "reinhardt",
+      "torbjorn",
+      "tracer",
+      "vendetta",
+      "venture",
+      "wrecking_ball",
+      "wuyang"
+    ],
+    "counteredBy": [
+      "ashe",
+      "baptiste",
+      "cassidy",
+      "dva",
+      "emre",
+      "juno",
+      "moira",
+      "shion",
+      "soldier76",
+      "widowmaker",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "jetpack_cat",
+      "lucio",
+      "tracer",
+      "winston"
+    ],
+    "mapPreference": [
+      "open",
+      "flank_routes"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "flanker",
+    "metaTier": "B",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "genji",
+    "name": "Genji",
+    "role": "dps",
+    "archetype": [
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 5,
+    "tags": [
+      "mobile",
+      "deflect",
+      "isolates-backline"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "bastion",
+      "hanzo",
+      "lifeweaver",
+      "sigma",
+      "sojourn",
+      "soldier76",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "anran",
+      "brigitte",
+      "lucio",
+      "mei",
+      "moira",
+      "pharah",
+      "shion",
+      "symmetra",
+      "torbjorn",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "doomfist",
+      "dva",
+      "jetpack_cat",
+      "juno",
+      "kiriko",
+      "lucio",
+      "sombra",
+      "tracer",
+      "winston"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "close"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "flanker",
+    "metaTier": "B",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 3,
+    "tags": [
+      "projectile",
+      "burst",
+      "high-ground"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "baptiste",
+      "bastion",
+      "cassidy",
+      "illari",
+      "mauga",
+      "mei",
+      "roadhog",
+      "symmetra",
+      "torbjorn",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "dva",
+      "echo",
+      "genji",
+      "hazard",
+      "junker_queen",
+      "juno",
+      "lucio",
+      "pharah",
+      "sigma",
+      "tracer",
+      "vendetta",
+      "winston",
+      "wrecking_ball"
+    ],
+    "synergizesWith": [
+      "ana",
+      "ramattra",
+      "sigma",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "long",
+      "high_ground"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "projectile",
+    "metaTier": "B",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "junkrat",
+    "name": "Junkrat",
+    "role": "dps",
+    "archetype": [
+      "zone",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "projectile",
+      "anti-dive",
+      "area-denial"
+    ],
+    "counters": [
+      "brigitte",
+      "doomfist",
+      "junker_queen",
+      "reinhardt"
+    ],
+    "counteredBy": [
+      "ashe",
+      "baptiste",
+      "cassidy",
+      "dva",
+      "emre",
+      "freja",
+      "jetpack_cat",
+      "juno",
+      "mauga",
+      "mercy",
+      "pharah",
+      "soldier76",
+      "sombra",
+      "tracer",
+      "widowmaker",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "mauga",
+      "roadhog",
+      "wrecking_ball",
+      "zarya"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "close"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "projectile",
+    "metaTier": "B",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "mei",
+    "name": "Mei",
+    "role": "dps",
+    "archetype": [
+      "zone",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 1,
+    "tags": [
+      "area-denial",
+      "anti-dive",
+      "self-peel"
+    ],
+    "counters": [
+      "anran",
+      "brigitte",
+      "dmon",
+      "domina",
+      "doomfist",
+      "dva",
+      "genji",
+      "junker_queen",
+      "orisa",
+      "sombra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "zarya"
+    ],
+    "counteredBy": [
+      "ashe",
+      "echo",
+      "emre",
+      "freja",
+      "hanzo",
+      "jetpack_cat",
+      "juno",
+      "mercy",
+      "pharah",
+      "widowmaker",
+      "wuyang"
+    ],
+    "synergizesWith": [
+      "junker_queen",
+      "reinhardt",
+      "symmetra",
+      "torbjorn",
+      "zarya"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "close"
+    ],
+    "metaWeight": 1,
+    "playstyle": "zone",
+    "metaTier": "A",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "pharah",
+    "name": "Pharah",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "flying",
+      "splash-damage",
+      "hard-to-hit"
+    ],
+    "counters": [
+      "anran",
+      "brigitte",
+      "dmon",
+      "doomfist",
+      "genji",
+      "hanzo",
+      "hazard",
+      "junker_queen",
+      "junkrat",
+      "kiriko",
+      "lifeweaver",
+      "mei",
+      "mizuki",
+      "reaper",
+      "reinhardt",
+      "symmetra",
+      "torbjorn",
+      "tracer",
+      "vendetta",
+      "venture",
+      "winston",
+      "wrecking_ball",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "ashe",
+      "baptiste",
+      "bastion",
+      "cassidy",
+      "domina",
+      "dva",
+      "echo",
+      "emre",
+      "illari",
+      "jetpack_cat",
+      "juno",
+      "mauga",
+      "shion",
+      "soldier76",
+      "sombra",
+      "widowmaker",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "baptiste",
+      "mercy",
+      "wuyang",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "open",
+      "high_ground"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "projectile",
+    "metaTier": "A+",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "reaper",
+    "name": "Reaper",
+    "role": "dps",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 3,
+    "tags": [
+      "burst",
+      "anti-tank",
+      "flank"
+    ],
+    "counters": [
+      "anran",
+      "bastion",
+      "dmon",
+      "domina",
+      "juno",
+      "lifeweaver",
+      "mauga",
+      "roadhog",
+      "sombra",
+      "winston",
+      "zarya",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "cassidy",
+      "echo",
+      "freja",
+      "illari",
+      "jetpack_cat",
+      "mercy",
+      "pharah",
+      "symmetra",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "emre",
+      "junker_queen",
+      "lucio",
+      "mauga",
+      "mizuki",
+      "moira",
+      "reinhardt"
+    ],
+    "mapPreference": [
+      "close",
+      "flank_routes"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "flanker",
+    "metaTier": "S",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "soldier76",
+    "name": "Soldier: 76",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 3,
+    "tags": [
+      "hitscan",
+      "self-heal",
+      "anti-flyer"
+    ],
+    "counters": [
+      "echo",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "lucio",
+      "mercy",
+      "pharah"
+    ],
+    "counteredBy": [
+      "dva",
+      "genji",
+      "sigma",
+      "vendetta",
+      "venture",
+      "winston"
+    ],
+    "synergizesWith": [
+      "ana",
+      "lucio",
+      "mercy",
+      "reinhardt",
+      "sigma"
+    ],
+    "mapPreference": [
+      "mixed",
+      "open"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "hitscan",
+    "metaTier": "B",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "sojourn",
+    "name": "Sojourn",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 4,
+    "tags": [
+      "hitscan",
+      "burst",
+      "railgun-charge"
+    ],
+    "counters": [
+      "bastion",
+      "domina",
+      "illari",
+      "jetpack_cat",
+      "mauga",
+      "roadhog",
+      "torbjorn"
+    ],
+    "counteredBy": [
+      "dva",
+      "genji",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "baptiste",
+      "kiriko",
+      "orisa",
+      "sigma",
+      "wuyang"
+    ],
+    "mapPreference": [
+      "mixed",
+      "long"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "hitscan",
+    "metaTier": "A+",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "sombra",
+    "name": "Sombra",
+    "role": "dps",
+    "archetype": [
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 4,
+    "tags": [
+      "stealth",
+      "anti-support",
+      "disruption"
+    ],
+    "counters": [
+      "ana",
+      "anran",
+      "ashe",
+      "baptiste",
+      "doomfist",
+      "illari",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "lifeweaver",
+      "lucio",
+      "mercy",
+      "pharah",
+      "sierra",
+      "sigma",
+      "widowmaker",
+      "wrecking_ball",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "brigitte",
+      "cassidy",
+      "dmon",
+      "dva",
+      "kiriko",
+      "mei",
+      "moira",
+      "reaper",
+      "symmetra",
+      "torbjorn",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "doomfist",
+      "genji",
+      "tracer",
+      "winston"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "close"
+    ],
+    "metaWeight": 0.7,
+    "playstyle": "flanker",
+    "metaTier": "C",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "symmetra",
+    "name": "Symmetra",
+    "role": "dps",
+    "archetype": [
+      "zone",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 1,
+    "tags": [
+      "area-denial",
+      "anti-shield",
+      "teleporter"
+    ],
+    "counters": [
+      "anran",
+      "brigitte",
+      "dmon",
+      "domina",
+      "dva",
+      "genji",
+      "moira",
+      "reaper",
+      "reinhardt",
+      "shion",
+      "sigma",
+      "sombra",
+      "tracer",
+      "vendetta",
+      "venture"
+    ],
+    "counteredBy": [
+      "cassidy",
+      "freja",
+      "hanzo",
+      "jetpack_cat",
+      "junker_queen",
+      "pharah",
+      "roadhog",
+      "wuyang",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "dmon",
+      "junker_queen",
+      "mei",
+      "zarya"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "close"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "zone",
+    "metaTier": "A+",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "torbjorn",
+    "name": "Torbjörn",
+    "role": "dps",
+    "archetype": [
+      "zone"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 1,
+    "tags": [
+      "area-denial",
+      "turret",
+      "anti-dive"
+    ],
+    "counters": [
+      "brigitte",
+      "dmon",
+      "doomfist",
+      "genji",
+      "hazard",
+      "moira",
+      "reaper",
+      "reinhardt",
+      "shion",
+      "sombra",
+      "tracer",
+      "venture",
+      "winston",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "ashe",
+      "domina",
+      "echo",
+      "freja",
+      "hanzo",
+      "orisa",
+      "pharah",
+      "ramattra",
+      "sigma",
+      "sojourn",
+      "wuyang",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "dmon",
+      "mei",
+      "orisa",
+      "reinhardt"
+    ],
+    "mapPreference": [
+      "chokepoints",
+      "close"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "zone",
+    "metaTier": "B",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "tracer",
+    "name": "Tracer",
+    "role": "dps",
+    "archetype": [
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 5,
+    "tags": [
+      "mobile",
+      "isolates-backline",
+      "anti-sniper"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "bastion",
+      "domina",
+      "hanzo",
+      "junkrat",
+      "juno",
+      "shion",
+      "sigma",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "brigitte",
+      "cassidy",
+      "echo",
+      "illari",
+      "mei",
+      "mercy",
+      "moira",
+      "pharah",
+      "symmetra",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "anran",
+      "doomfist",
+      "dva",
+      "echo",
+      "genji",
+      "jetpack_cat",
+      "juno",
+      "kiriko",
+      "lucio",
+      "sombra",
+      "vendetta",
+      "winston"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "close"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "flanker",
+    "metaTier": "S",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "venture",
+    "name": "Venture",
+    "role": "dps",
+    "archetype": [
+      "dive",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 4,
+    "tags": [
+      "burrow",
+      "isolates-backline",
+      "unpredictable"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "lifeweaver",
+      "sigma",
+      "soldier76",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "cassidy",
+      "echo",
+      "freja",
+      "kiriko",
+      "mei",
+      "orisa",
+      "pharah",
+      "symmetra",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "kiriko",
+      "lucio",
+      "moira"
+    ],
+    "mapPreference": [
+      "close",
+      "flank_routes"
+    ],
+    "metaWeight": 1,
+    "playstyle": "flanker",
+    "metaTier": "A",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "widowmaker",
+    "name": "Widowmaker",
+    "role": "dps",
+    "archetype": [
+      "poke"
+    ],
+    "range": [
+      "long"
+    ],
+    "mobility": 3,
+    "tags": [
+      "sniper",
+      "anti-flyer",
+      "punishes-open-space"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "baptiste",
+      "bastion",
+      "brigitte",
+      "cassidy",
+      "domina",
+      "echo",
+      "emre",
+      "illari",
+      "jetpack_cat",
+      "junker_queen",
+      "junkrat",
+      "juno",
+      "mei",
+      "mercy",
+      "pharah",
+      "reinhardt",
+      "zarya",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "anran",
+      "doomfist",
+      "dva",
+      "genji",
+      "hazard",
+      "kiriko",
+      "lucio",
+      "sombra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "winston",
+      "wrecking_ball"
+    ],
+    "synergizesWith": [
+      "ashe",
+      "domina",
+      "orisa",
+      "sigma",
+      "zenyatta"
+    ],
+    "mapPreference": [
+      "long",
+      "high_ground"
+    ],
+    "metaWeight": 0.7,
+    "playstyle": "sniper",
+    "metaTier": "C",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "ana",
+    "name": "Ana",
+    "role": "support",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 1,
+    "tags": [
+      "anti-heal",
+      "anti-dive",
+      "pick-potential"
+    ],
+    "counters": [
+      "bastion",
+      "doomfist",
+      "hazard",
+      "mauga",
+      "mercy",
+      "ramattra",
+      "roadhog",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "anran",
+      "ashe",
+      "dmon",
+      "dva",
+      "freja",
+      "genji",
+      "hanzo",
+      "kiriko",
+      "lucio",
+      "sigma",
+      "sombra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "widowmaker",
+      "winston",
+      "wuyang",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "freja",
+      "hanzo",
+      "orisa",
+      "reinhardt",
+      "sigma",
+      "soldier76"
+    ],
+    "mapPreference": [
+      "mixed",
+      "chokepoints"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "hybrid",
+    "metaTier": "A+",
+    "supportRole": "flex"
+  },
+  {
+    "id": "baptiste",
+    "name": "Baptiste",
+    "role": "support",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 3,
+    "tags": [
+      "burst-heal",
+      "anti-dive",
+      "damage-amp"
+    ],
+    "counters": [
+      "anran",
+      "bastion",
+      "dmon",
+      "echo",
+      "jetpack_cat",
+      "junkrat",
+      "mercy",
+      "pharah"
+    ],
+    "counteredBy": [
+      "hanzo",
+      "sombra",
+      "widowmaker"
+    ],
+    "synergizesWith": [
+      "bastion",
+      "pharah",
+      "ramattra",
+      "roadhog",
+      "sigma",
+      "sojourn"
+    ],
+    "mapPreference": [
+      "mixed",
+      "open"
+    ],
+    "metaWeight": 1,
+    "playstyle": "healer",
+    "metaTier": "A",
+    "supportRole": "flex"
+  },
+  {
+    "id": "brigitte",
+    "name": "Brigitte",
+    "role": "support",
+    "archetype": [
+      "brawl",
+      "anti-dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 2,
+    "tags": [
+      "anti-dive",
+      "peel",
+      "shield"
+    ],
+    "counters": [
+      "anran",
+      "doomfist",
+      "dva",
+      "genji",
+      "shion",
+      "sigma",
+      "sombra",
+      "tracer",
+      "winston",
+      "wrecking_ball",
+      "zarya"
+    ],
+    "counteredBy": [
+      "ashe",
+      "bastion",
+      "dmon",
+      "echo",
+      "freja",
+      "jetpack_cat",
+      "junkrat",
+      "juno",
+      "mauga",
+      "mei",
+      "pharah",
+      "ramattra",
+      "reinhardt",
+      "symmetra",
+      "torbjorn",
+      "widowmaker",
+      "wuyang"
+    ],
+    "synergizesWith": [
+      "mauga",
+      "reinhardt",
+      "wrecking_ball"
+    ],
+    "mapPreference": [
+      "close",
+      "chokepoints"
+    ],
+    "metaWeight": 1,
+    "playstyle": "enabler",
+    "metaTier": "A",
+    "supportRole": "main"
+  },
+  {
+    "id": "illari",
+    "name": "Illari",
+    "role": "support",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 2,
+    "tags": [
+      "hitscan-heal",
+      "self-sufficient",
+      "burst"
+    ],
+    "counters": [
+      "ashe",
+      "dmon",
+      "freja",
+      "mercy",
+      "pharah",
+      "reaper",
+      "tracer"
+    ],
+    "counteredBy": [
+      "dva",
+      "hanzo",
+      "shion",
+      "sojourn",
+      "sombra",
+      "widowmaker",
+      "winston"
+    ],
+    "synergizesWith": [
+      "ashe",
+      "orisa",
+      "sigma"
+    ],
+    "mapPreference": [
+      "long",
+      "open"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "healer",
+    "metaTier": "A+",
+    "supportRole": "flex"
+  },
+  {
+    "id": "kiriko",
+    "name": "Kiriko",
+    "role": "support",
+    "archetype": [
+      "dive",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "cleanse",
+      "mobile",
+      "anti-cc"
+    ],
+    "counters": [
+      "ana",
+      "anran",
+      "ashe",
+      "junker_queen",
+      "sierra",
+      "sombra",
+      "venture",
+      "widowmaker"
+    ],
+    "counteredBy": [
+      "dva",
+      "pharah"
+    ],
+    "synergizesWith": [
+      "anran",
+      "doomfist",
+      "genji",
+      "hazard",
+      "orisa",
+      "sierra",
+      "sojourn",
+      "tracer",
+      "vendetta",
+      "venture",
+      "winston"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "mixed"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "enabler",
+    "metaTier": "S",
+    "supportRole": "flex"
+  },
+  {
+    "id": "lifeweaver",
+    "name": "Lifeweaver",
+    "role": "support",
+    "archetype": [
+      "zone",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 2,
+    "tags": [
+      "anti-dive",
+      "peel",
+      "high-single-target-heal"
+    ],
+    "counters": [
+      "dmon",
+      "doomfist",
+      "zarya"
+    ],
+    "counteredBy": [
+      "genji",
+      "mauga",
+      "pharah",
+      "reaper",
+      "sombra",
+      "vendetta",
+      "venture",
+      "winston"
+    ],
+    "synergizesWith": [
+      "junker_queen",
+      "reinhardt",
+      "sigma"
+    ],
+    "mapPreference": [
+      "mixed",
+      "chokepoints"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "healer",
+    "metaTier": "B",
+    "supportRole": "main"
+  },
+  {
+    "id": "lucio",
+    "name": "Lúcio",
+    "role": "support",
+    "archetype": [
+      "dive",
+      "brawl"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "speed-boost",
+      "mobile",
+      "enables-dive"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "domina",
+      "freja",
+      "genji",
+      "hanzo",
+      "junker_queen",
+      "reinhardt",
+      "sigma",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "cassidy",
+      "mauga",
+      "moira",
+      "soldier76",
+      "sombra"
+    ],
+    "synergizesWith": [
+      "cassidy",
+      "dmon",
+      "doomfist",
+      "dva",
+      "echo",
+      "genji",
+      "hazard",
+      "junker_queen",
+      "mauga",
+      "mizuki",
+      "reaper",
+      "reinhardt",
+      "soldier76",
+      "tracer",
+      "vendetta",
+      "venture",
+      "winston",
+      "wrecking_ball",
+      "zarya"
+    ],
+    "mapPreference": [
+      "open",
+      "flank_routes"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "enabler",
+    "metaTier": "S",
+    "supportRole": "main"
+  },
+  {
+    "id": "mercy",
+    "name": "Mercy",
+    "role": "support",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "damage-boost",
+      "single-target-heal",
+      "survivability"
+    ],
+    "counters": [
+      "anran",
+      "junker_queen",
+      "junkrat",
+      "mei",
+      "reaper",
+      "tracer"
+    ],
+    "counteredBy": [
+      "ana",
+      "ashe",
+      "baptiste",
+      "bastion",
+      "cassidy",
+      "dmon",
+      "domina",
+      "dva",
+      "illari",
+      "juno",
+      "mauga",
+      "shion",
+      "soldier76",
+      "sombra",
+      "widowmaker"
+    ],
+    "synergizesWith": [
+      "ashe",
+      "pharah",
+      "reinhardt",
+      "soldier76"
+    ],
+    "mapPreference": [
+      "mixed",
+      "open"
+    ],
+    "metaWeight": 0.7,
+    "playstyle": "healer",
+    "metaTier": "C",
+    "supportRole": "main"
+  },
+  {
+    "id": "moira",
+    "name": "Moira",
+    "role": "support",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 3,
+    "tags": [
+      "aoe-heal",
+      "self-sufficient",
+      "anti-dive"
+    ],
+    "counters": [
+      "anran",
+      "doomfist",
+      "echo",
+      "genji",
+      "juno",
+      "lucio",
+      "shion",
+      "sierra",
+      "sigma",
+      "sombra",
+      "tracer",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "cassidy",
+      "junker_queen",
+      "roadhog",
+      "symmetra",
+      "torbjorn"
+    ],
+    "synergizesWith": [
+      "cassidy",
+      "emre",
+      "hazard",
+      "junker_queen",
+      "mauga",
+      "mizuki",
+      "reaper",
+      "roadhog",
+      "shion",
+      "venture",
+      "wrecking_ball",
+      "zarya"
+    ],
+    "mapPreference": [
+      "close",
+      "chokepoints"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "hybrid",
+    "metaTier": "B",
+    "supportRole": "flex"
+  },
+  {
+    "id": "zenyatta",
+    "name": "Zenyatta",
+    "role": "support",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 1,
+    "tags": [
+      "anti-shield",
+      "discord",
+      "high-damage-support"
+    ],
+    "counters": [
+      "hazard",
+      "mauga",
+      "orisa",
+      "ramattra",
+      "reinhardt",
+      "roadhog"
+    ],
+    "counteredBy": [
+      "anran",
+      "doomfist",
+      "dva",
+      "freja",
+      "genji",
+      "hanzo",
+      "juno",
+      "lucio",
+      "pharah",
+      "reaper",
+      "shion",
+      "sigma",
+      "sombra",
+      "tracer",
+      "vendetta",
+      "venture",
+      "widowmaker",
+      "winston"
+    ],
+    "synergizesWith": [
+      "ashe",
+      "dmon",
+      "dva",
+      "hanzo",
+      "orisa",
+      "pharah",
+      "ramattra",
+      "sigma",
+      "widowmaker"
+    ],
+    "mapPreference": [
+      "mixed",
+      "open"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "hybrid",
+    "metaTier": "B",
+    "supportRole": "main"
+  },
+  {
+    "id": "juno",
+    "name": "Juno",
+    "role": "support",
+    "archetype": [
+      "dive",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "mobile",
+      "aoe-heal",
+      "flying",
+      "enables-dive"
+    ],
+    "counters": [
+      "anran",
+      "brigitte",
+      "doomfist",
+      "echo",
+      "hanzo",
+      "jetpack_cat",
+      "junkrat",
+      "mei",
+      "mercy",
+      "pharah",
+      "reinhardt",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "ashe",
+      "cassidy",
+      "dva",
+      "mauga",
+      "moira",
+      "reaper",
+      "soldier76",
+      "sombra",
+      "tracer",
+      "widowmaker",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "dva",
+      "genji",
+      "tracer",
+      "winston",
+      "reinhardt",
+      "ana",
+      "jetpack_cat",
+      "brigitte",
+      "zenyatta",
+      "kiriko"
+    ],
+    "mapPreference": [
+      "open",
+      "flank_routes"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "healer",
+    "metaTier": "A+",
+    "supportRole": "flex"
+  },
+  {
+    "id": "domina",
+    "name": "Domina",
+    "role": "tank",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 2,
+    "tags": [
+      "hitscan-beam",
+      "zone-control",
+      "shield",
+      "stun-combo"
+    ],
+    "counters": [
+      "jetpack_cat",
+      "mercy",
+      "pharah",
+      "torbjorn"
+    ],
+    "counteredBy": [
+      "ashe",
+      "bastion",
+      "dmon",
+      "junker_queen",
+      "lucio",
+      "mei",
+      "ramattra",
+      "reaper",
+      "reinhardt",
+      "sojourn",
+      "symmetra",
+      "tracer",
+      "vendetta",
+      "widowmaker",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "ashe",
+      "orisa",
+      "sigma",
+      "widowmaker"
+    ],
+    "mapPreference": [
+      "long",
+      "open",
+      "chokepoints"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "defensive",
+    "metaTier": "B",
+    "tankType": "poke"
+  },
+  {
+    "id": "freja",
+    "name": "Freja",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 4,
+    "tags": [
+      "projectile",
+      "aerial",
+      "recon",
+      "constant-pressure",
+      "flying"
+    ],
+    "counters": [
+      "ana",
+      "bastion",
+      "brigitte",
+      "cassidy",
+      "junkrat",
+      "mei",
+      "reaper",
+      "roadhog",
+      "symmetra",
+      "torbjorn",
+      "venture",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "dva",
+      "illari",
+      "lucio",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "ana",
+      "orisa",
+      "sigma"
+    ],
+    "mapPreference": [
+      "long",
+      "high_ground",
+      "open"
+    ],
+    "metaWeight": 1,
+    "playstyle": "projectile",
+    "metaTier": "A",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "anran",
+    "name": "Anran",
+    "role": "dps",
+    "archetype": [
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 4,
+    "tags": [
+      "burn-dot",
+      "isolates-backline",
+      "revive-ult"
+    ],
+    "counters": [
+      "ana",
+      "doomfist",
+      "genji",
+      "sigma",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "baptiste",
+      "brigitte",
+      "cassidy",
+      "dmon",
+      "jetpack_cat",
+      "juno",
+      "kiriko",
+      "mei",
+      "mercy",
+      "moira",
+      "orisa",
+      "pharah",
+      "reaper",
+      "roadhog",
+      "sombra",
+      "symmetra",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "kiriko",
+      "tracer",
+      "winston"
+    ],
+    "mapPreference": [
+      "flank_routes",
+      "close"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "flanker",
+    "metaTier": "B",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "emre",
+    "name": "Emre",
+    "role": "dps",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 3,
+    "tags": [
+      "lifesteal",
+      "burst",
+      "run-and-gun"
+    ],
+    "counters": [
+      "bastion",
+      "echo",
+      "jetpack_cat",
+      "junkrat",
+      "mei",
+      "pharah"
+    ],
+    "counteredBy": [
+      "dva",
+      "sigma",
+      "widowmaker",
+      "winston",
+      "wrecking_ball"
+    ],
+    "synergizesWith": [
+      "junker_queen",
+      "moira",
+      "reaper"
+    ],
+    "mapPreference": [
+      "mixed",
+      "close"
+    ],
+    "metaWeight": 1,
+    "playstyle": "hitscan",
+    "metaTier": "A",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "vendetta",
+    "name": "Vendetta",
+    "role": "dps",
+    "archetype": [
+      "dive"
+    ],
+    "range": [
+      "close"
+    ],
+    "mobility": 5,
+    "tags": [
+      "melee-burst",
+      "isolates-backline",
+      "low-risk-dive"
+    ],
+    "counters": [
+      "ana",
+      "ashe",
+      "domina",
+      "hanzo",
+      "lifeweaver",
+      "sigma",
+      "soldier76",
+      "widowmaker",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "cassidy",
+      "echo",
+      "jetpack_cat",
+      "junker_queen",
+      "mei",
+      "mizuki",
+      "orisa",
+      "pharah",
+      "roadhog",
+      "symmetra"
+    ],
+    "synergizesWith": [
+      "kiriko",
+      "lucio",
+      "tracer"
+    ],
+    "mapPreference": [
+      "close",
+      "flank_routes"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "flanker",
+    "metaTier": "B",
+    "dpsRole": "flex"
+  },
+  {
+    "id": "sierra",
+    "name": "Sierra",
+    "role": "dps",
+    "archetype": [
+      "poke",
+      "zone"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 3,
+    "tags": [
+      "hitscan",
+      "tracking",
+      "recon",
+      "area-denial-ult"
+    ],
+    "counters": [
+      "doomfist",
+      "junker_queen"
+    ],
+    "counteredBy": [
+      "ashe",
+      "cassidy",
+      "dva",
+      "kiriko",
+      "moira",
+      "sigma",
+      "sombra",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "kiriko",
+      "orisa",
+      "sigma"
+    ],
+    "mapPreference": [
+      "mixed",
+      "long"
+    ],
+    "metaWeight": 1.15,
+    "playstyle": "hitscan",
+    "metaTier": "A+",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "shion",
+    "name": "Shion",
+    "role": "dps",
+    "archetype": [
+      "brawl",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 4,
+    "tags": [
+      "hitscan",
+      "burst",
+      "mobile-engage"
+    ],
+    "counters": [
+      "echo",
+      "genji",
+      "illari",
+      "mercy",
+      "pharah",
+      "sigma",
+      "zenyatta"
+    ],
+    "counteredBy": [
+      "brigitte",
+      "cassidy",
+      "dmon",
+      "hazard",
+      "moira",
+      "roadhog",
+      "symmetra",
+      "torbjorn",
+      "tracer",
+      "winston",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "junker_queen",
+      "mauga",
+      "moira",
+      "reinhardt"
+    ],
+    "mapPreference": [
+      "mixed",
+      "close"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "hitscan",
+    "metaTier": "S",
+    "dpsRole": "hitscan"
+  },
+  {
+    "id": "mizuki",
+    "name": "Mizuki",
+    "role": "support",
+    "archetype": [
+      "brawl",
+      "dive"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 4,
+    "tags": [
+      "hybrid-heal-damage",
+      "anti-air",
+      "self-sustain-aura"
+    ],
+    "counters": [
+      "doomfist",
+      "dva",
+      "junker_queen",
+      "reinhardt",
+      "vendetta",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "echo",
+      "jetpack_cat",
+      "pharah"
+    ],
+    "synergizesWith": [
+      "hazard",
+      "junker_queen",
+      "lucio",
+      "mauga",
+      "moira",
+      "reaper",
+      "reinhardt"
+    ],
+    "mapPreference": [
+      "close",
+      "chokepoints",
+      "mixed"
+    ],
+    "metaWeight": 1.3,
+    "playstyle": "hybrid",
+    "metaTier": "S",
+    "supportRole": "main"
+  },
+  {
+    "id": "jetpack_cat",
+    "name": "Jetpack Cat",
+    "role": "support",
+    "archetype": [
+      "dive",
+      "poke"
+    ],
+    "range": [
+      "close",
+      "mid"
+    ],
+    "mobility": 5,
+    "tags": [
+      "flying",
+      "mobile",
+      "enables-dive",
+      "low-healing"
+    ],
+    "counters": [
+      "anran",
+      "brigitte",
+      "dmon",
+      "doomfist",
+      "junker_queen",
+      "junkrat",
+      "mei",
+      "mizuki",
+      "pharah",
+      "reaper",
+      "reinhardt",
+      "symmetra",
+      "vendetta",
+      "wrecking_ball"
+    ],
+    "counteredBy": [
+      "ashe",
+      "baptiste",
+      "bastion",
+      "cassidy",
+      "domina",
+      "dva",
+      "emre",
+      "juno",
+      "mauga",
+      "sojourn",
+      "soldier76",
+      "sombra",
+      "widowmaker"
+    ],
+    "synergizesWith": [
+      "dva",
+      "echo",
+      "genji",
+      "tracer",
+      "winston"
+    ],
+    "mapPreference": [
+      "open",
+      "flank_routes",
+      "high_ground"
+    ],
+    "metaWeight": 0.85,
+    "playstyle": "enabler",
+    "metaTier": "B",
+    "supportRole": "main"
+  },
+  {
+    "id": "wuyang",
+    "name": "Wuyang",
+    "role": "support",
+    "archetype": [
+      "zone",
+      "poke"
+    ],
+    "range": [
+      "mid",
+      "long"
+    ],
+    "mobility": 3,
+    "tags": [
+      "aoe-heal",
+      "area-denial-ult",
+      "adaptable-projectiles"
+    ],
+    "counters": [
+      "ana",
+      "bastion",
+      "brigitte",
+      "cassidy",
+      "doomfist",
+      "mei",
+      "ramattra",
+      "reinhardt",
+      "symmetra",
+      "torbjorn"
+    ],
+    "counteredBy": [
+      "echo",
+      "sigma",
+      "zarya"
+    ],
+    "synergizesWith": [
+      "pharah",
+      "ramattra",
+      "sojourn"
+    ],
+    "mapPreference": [
+      "mixed",
+      "open"
+    ],
+    "metaWeight": 1,
+    "playstyle": "healer",
+    "metaTier": "A",
+    "supportRole": "main"
+  }
+]
