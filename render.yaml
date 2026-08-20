@@ -1,7 +1,7 @@
 services:
   # Backend: API Express, se despliega como Web Service usando el Dockerfile que ya existe.
   - type: web
-    name: ow2-skill-issue
+    name: ow2-skill-issue-backend
     runtime: docker
     dockerfilePath: ./backend/Dockerfile
     dockerContext: ./backend
@@ -15,13 +15,11 @@ services:
 
   # Frontend: se sirve como Static Site (build de Vite), no necesita el Dockerfile de frontend/.
   - type: web
-    name: ow2-skill-issue
+    name: ow2-skill-issue-frontend
     runtime: static
     rootDir: frontend
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
     envVars:
-      # IMPORTANTE: después del primer deploy del backend, reemplazar este valor
-      # por la URL pública real que Render le asigna (ver DEPLOY.md paso 4).
       - key: VITE_API_URL
-        value: https://ow2-skill-issue.onrender.com/api
+        value: https://ow2-skill-issue-backend.onrender.com/api
