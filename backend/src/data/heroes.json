@@ -258,9 +258,9 @@
       "close",
       "chokepoints"
     ],
-    "metaWeight": 1.15,
+    "metaWeight": 1.0,
     "playstyle": "aggressive",
-    "metaTier": "A+",
+    "metaTier": "A",
     "tankType": "brawl"
   },
   {
@@ -784,9 +784,9 @@
       "chokepoints",
       "close"
     ],
-    "metaWeight": 1.15,
+    "metaWeight": 1.0,
     "playstyle": "defensive",
-    "metaTier": "A+",
+    "metaTier": "A",
     "tankType": "brawl"
   },
   {
@@ -901,9 +901,9 @@
       "chokepoints",
       "flank_routes"
     ],
-    "metaWeight": 1.15,
+    "metaWeight": 1.0,
     "playstyle": "aggressive",
-    "metaTier": "A+",
+    "metaTier": "A",
     "tankType": "brawl"
   },
   {
@@ -1346,9 +1346,9 @@
       "chokepoints",
       "close"
     ],
-    "metaWeight": 0.85,
+    "metaWeight": 1.0,
     "playstyle": "projectile",
-    "metaTier": "B",
+    "metaTier": "A",
     "dpsRole": "flex"
   },
   {
@@ -1770,9 +1770,9 @@
       "chokepoints",
       "close"
     ],
-    "metaWeight": 1.15,
+    "metaWeight": 1.0,
     "playstyle": "zone",
-    "metaTier": "A+",
+    "metaTier": "A",
     "dpsRole": "flex"
   },
   {
@@ -2132,9 +2132,9 @@
       "mixed",
       "open"
     ],
-    "metaWeight": 1,
+    "metaWeight": 1.15,
     "playstyle": "healer",
-    "metaTier": "A",
+    "metaTier": "A+",
     "supportRole": "flex"
   },
   {
@@ -2195,9 +2195,9 @@
       "close",
       "chokepoints"
     ],
-    "metaWeight": 1,
+    "metaWeight": 1.15,
     "playstyle": "enabler",
-    "metaTier": "A",
+    "metaTier": "A+",
     "supportRole": "main"
   },
   {
@@ -2299,9 +2299,9 @@
       "flank_routes",
       "mixed"
     ],
-    "metaWeight": 1.3,
+    "metaWeight": 1.15,
     "playstyle": "enabler",
-    "metaTier": "S",
+    "metaTier": "A+",
     "supportRole": "flex"
   },
   {
@@ -2727,9 +2727,9 @@
       "open",
       "chokepoints"
     ],
-    "metaWeight": 0.85,
+    "metaWeight": 1.0,
     "playstyle": "defensive",
-    "metaTier": "B",
+    "metaTier": "A",
     "tankType": "poke"
   },
   {
@@ -2783,7 +2783,7 @@
       "high_ground",
       "open"
     ],
-    "metaWeight": 1,
+    "metaWeight": 1.0,
     "playstyle": "projectile",
     "metaTier": "A",
     "dpsRole": "hitscan"
@@ -2840,9 +2840,9 @@
       "flank_routes",
       "close"
     ],
-    "metaWeight": 0.85,
+    "metaWeight": 1.0,
     "playstyle": "flanker",
-    "metaTier": "B",
+    "metaTier": "A",
     "dpsRole": "flex"
   },
   {
@@ -3160,9 +3160,9 @@
       "flank_routes",
       "high_ground"
     ],
-    "metaWeight": 0.85,
+    "metaWeight": 1.0,
     "playstyle": "enabler",
-    "metaTier": "B",
+    "metaTier": "A",
     "supportRole": "main"
   },
   {
@@ -3209,9 +3209,9 @@
       "mixed",
       "open"
     ],
-    "metaWeight": 1,
+    "metaWeight": 1.15,
     "playstyle": "healer",
-    "metaTier": "A",
+    "metaTier": "A+",
     "supportRole": "main"
   }
 ]
