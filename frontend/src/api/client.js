@@ -6,6 +6,14 @@ export async function fetchHeroes() {
   return res.json();
 }
 
+// Ficha completa de un héroe puntual: counters, counteredBy, synergizesWith,
+// tags, mapPreference, etc. Usado en la pestaña "Personajes" (guía de counters).
+export async function fetchHeroDetail(heroId) {
+  const res = await fetch(`${BASE}/heroes/${heroId}`);
+  if (!res.ok) throw new Error("No se pudo cargar la ficha del héroe");
+  return res.json();
+}
+
 export async function fetchMaps() {
   const res = await fetch(`${BASE}/maps`);
   if (!res.ok) throw new Error("No se pudieron cargar los mapas");
