@@ -787,9 +787,9 @@
       "chokepoints",
       "close"
     ],
-    "metaWeight": 1.0,
+    "metaWeight": 1.3,
     "playstyle": "defensive",
-    "metaTier": "A",
+    "metaTier": "S",
     "tankType": "brawl"
   },
   {
@@ -1729,7 +1729,7 @@
       "close",
       "mid"
     ],
-    "mobility": 1,
+    "mobility": 3,
     "tags": [
       "area-denial",
       "anti-shield",
