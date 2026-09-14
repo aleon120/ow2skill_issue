@@ -35,6 +35,43 @@ router.get("/heroes", (req, res) => {
   );
 });
 
+// Ficha completa de un héroe: incluye counters/counteredBy/synergizesWith,
+// mapPreference y tags — todo lo que la vista "Personajes" necesita para
+// mostrar la guía de matchups de un héroe puntual. Los ids de counters/
+// counteredBy/synergizesWith se resuelven a { id, name, role } para que el
+// frontend no tenga que cruzar contra la lista completa de héroes.
+function resolveHeroRefs(ids = []) {
+  return ids
+    .map((id) => heroes.find((h) => h.id === id))
+    .filter(Boolean)
+    .map((h) => ({ id: h.id, name: h.name, role: h.role }));
+}
+
+router.get("/heroes/:id", (req, res) => {
+  const hero = heroes.find((h) => h.id === req.params.id);
+  if (!hero) {
+    return res.status(404).json({ error: "Héroe no encontrado" });
+  }
+  res.json({
+    id: hero.id,
+    name: hero.name,
+    role: hero.role,
+    archetype: hero.archetype,
+    range: hero.range,
+    mobility: hero.mobility,
+    tags: hero.tags,
+    mapPreference: hero.mapPreference,
+    metaTier: hero.metaTier,
+    playstyle: hero.playstyle,
+    tankType: hero.tankType,
+    dpsRole: hero.dpsRole,
+    supportRole: hero.supportRole,
+    counters: resolveHeroRefs(hero.counters),
+    counteredBy: resolveHeroRefs(hero.counteredBy),
+    synergizesWith: resolveHeroRefs(hero.synergizesWith),
+  });
+});
+
 // Lista de mapas
 router.get("/maps", (req, res) => {
   res.json(maps.map((m) => ({ id: m.id, name: m.name, type: m.type, tags: m.tags, range: m.range })));
