@@ -47,7 +47,8 @@
       "mizuki",
       "roadhog",
       "symmetra",
-      "zarya"
+      "zarya",
+      "domina"
     ],
     "synergizesWith": [
       "genji",
@@ -778,7 +779,9 @@
       "sigma",
       "symmetra",
       "winston",
-      "wrecking_ball"
+      "wrecking_ball",
+      "genji",
+      "vendetta"
     ],
     "mapPreference": [
       "chokepoints",

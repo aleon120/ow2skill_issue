@@ -41,7 +41,7 @@ export default function PersonajesPage() {
             <h2>Elegí un héroe</h2>
           </div>
           {ROLE_ORDER.map((role) => {
-            const list = heroes.filter((h) => h.role === role);
+            const list = heroes.filter((h) => h.role === role).sort((a, b) => a.name.localeCompare(b.name, "es"));
             if (list.length === 0) return null;
             return (
               <div className="role-block" key={role}>

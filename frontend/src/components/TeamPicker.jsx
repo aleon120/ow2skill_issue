@@ -7,7 +7,7 @@ const ROLE_ORDER = ["tank", "dps", "support"];
 export default function TeamPicker({ title, eyebrow, heroes, selectedIds, onToggle, maxSize = 5 }) {
   const byRole = ROLE_ORDER.map((role) => ({
     role,
-    list: heroes.filter((h) => h.role === role),
+    list: heroes.filter((h) => h.role === role).sort((a, b) => a.name.localeCompare(b.name, "es")),
   }));
 
   return (
