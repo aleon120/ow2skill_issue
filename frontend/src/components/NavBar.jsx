@@ -5,6 +5,7 @@ const TABS = [
   { id: "6v6", label: "6vs6" },
   { id: "stadium", label: "Stadium" },
   { id: "personajes", label: "Personajes" },
+  { id: "composiciones", label: "Composiciones" },
 ];
 
 export default function NavBar({ active, onChange }) {

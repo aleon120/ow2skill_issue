@@ -656,3 +656,34 @@ button { font-family: inherit; }
 .counter-section .hero-ref-card { border-left-color: var(--positive); }
 .counteredby-section .hero-ref-card { border-left-color: var(--negative); }
 .synergy-section .hero-ref-card { border-left-color: var(--cyan); }
+
+/* --- Pestaña "Composiciones" --- */
+
+.mode-toggle { display: flex; gap: 6px; margin-bottom: 16px; }
+.mode-toggle-btn {
+  flex: 1;
+  border: 1px solid var(--panel-border);
+  background: transparent;
+  color: var(--muted);
+  padding: 6px 10px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+.mode-toggle-btn:hover { color: var(--text); border-color: var(--cyan); }
+.mode-toggle-btn-active { color: var(--cyan); border-color: var(--cyan); background: rgba(79, 216, 232, 0.08); }
+
+.composition-role-block .hero-ref-card { border-left-color: var(--panel-border); align-items: flex-start; }
+
+.composition-card { max-width: 220px; }
+.composition-card-name { flex-direction: column; align-items: flex-start; gap: 2px; }
+.composition-card-title-row { display: flex; align-items: center; gap: 8px; width: 100%; }
+.composition-score { color: var(--positive); font-size: 11px; margin-left: auto; }
+.composition-card-note {
+  font-size: 11px;
+  color: var(--muted);
+  white-space: normal;
+  text-align: left;
+  line-height: 1.3;
+}

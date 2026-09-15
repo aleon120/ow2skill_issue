@@ -14,6 +14,14 @@ export async function fetchHeroDetail(heroId) {
   return res.json();
 }
 
+// Composición sugerida alrededor de un héroe ancla: compañeros recomendados
+// por rol (sinergia + balance de equipo + meta, sin depender de mapa/rivales).
+export async function fetchCompositions(heroId, mode = "5v5") {
+  const res = await fetch(`${BASE}/compositions/${heroId}?mode=${encodeURIComponent(mode)}`);
+  if (!res.ok) throw new Error("No se pudo cargar la composición sugerida");
+  return res.json();
+}
+
 export async function fetchMaps() {
   const res = await fetch(`${BASE}/maps`);
   if (!res.ok) throw new Error("No se pudieron cargar los mapas");

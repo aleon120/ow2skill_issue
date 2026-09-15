@@ -72,6 +72,54 @@ router.get("/heroes/:id", (req, res) => {
   });
 });
 
+// Sugerencias de composición: dado un héroe ancla, qué compañeros conviene
+// elegir para completar el equipo (sin depender de mapa ni de rivales, solo
+// sinergia + balance de composición + meta). Reutiliza el mismo motor que
+// /recommend, pero sin exigir mapId y agrupando el resultado por rol para
+// que el frontend pueda mostrar "tanques sugeridos / dps sugeridos / soporte
+// sugerido" directamente.
+const COMPOSITIONS_TOP_N = 6;
+
+router.get("/compositions/:heroId", (req, res) => {
+  const hero = heroes.find((h) => h.id === req.params.heroId);
+  if (!hero) {
+    return res.status(404).json({ error: "Héroe no encontrado" });
+  }
+  const mode = req.query.mode || "5v5";
+  if (!isValidMode(mode)) {
+    return res.status(400).json({ error: `Modo inválido, tiene que ser uno de: ${VALID_MODES.join(", ")}` });
+  }
+
+  const result = recommend({ mapId: null, allyIds: [hero.id], enemyIds: [], preferences: {}, mode });
+
+  const groups = { tank: [], dps: [], support: [] };
+  for (const rec of result.recommendations) {
+    const role = rec.hero.role;
+    if (groups[role] && groups[role].length < COMPOSITIONS_TOP_N) {
+      groups[role].push({
+        hero: rec.hero,
+        total: rec.total,
+        synergyDetail: rec.synergyDetail,
+        archetypeSynergyDetail: rec.archetypeSynergyDetail,
+        compositionDetail: rec.compositionDetail,
+      });
+    }
+  }
+
+  const roleLimits = ROLE_LIMITS_BY_MODE[mode];
+  const slotsNeeded = Object.fromEntries(
+    Object.entries(roleLimits).map(([role, limit]) => [role, Math.max(0, limit - (hero.role === role ? 1 : 0))])
+  );
+
+  res.json({
+    hero: { id: hero.id, name: hero.name, role: hero.role },
+    mode,
+    roleLimits,
+    slotsNeeded,
+    groups,
+  });
+});
+
 // Lista de mapas
 router.get("/maps", (req, res) => {
   res.json(maps.map((m) => ({ id: m.id, name: m.name, type: m.type, tags: m.tags, range: m.range })));
