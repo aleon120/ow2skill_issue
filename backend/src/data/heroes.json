@@ -368,7 +368,8 @@
       "hanzo",
       "sigma",
       "wuyang",
-      "zenyatta"
+      "zenyatta",
+      "ana"
     ],
     "mapPreference": [
       "chokepoints",
@@ -439,7 +440,9 @@
       "soldier76",
       "torbjorn",
       "winston",
-      "zarya"
+      "zarya",
+      "kiriko",
+      "juno"
     ],
     "mapPreference": [
       "chokepoints",
@@ -498,7 +501,9 @@
       "junkrat",
       "moira",
       "reinhardt",
-      "zarya"
+      "zarya",
+      "ana",
+      "mercy"
     ],
     "mapPreference": [
       "mixed",
@@ -782,7 +787,8 @@
       "winston",
       "wrecking_ball",
       "genji",
-      "vendetta"
+      "vendetta",
+      "reaper"
     ],
     "mapPreference": [
       "chokepoints",
@@ -1032,7 +1038,8 @@
       "baptiste",
       "mauga",
       "reinhardt",
-      "sigma"
+      "sigma",
+      "symmetra"
     ],
     "mapPreference": [
       "chokepoints",
@@ -1098,7 +1105,8 @@
       "junker_queen",
       "lucio",
       "moira",
-      "reinhardt"
+      "reinhardt",
+      "mei"
     ],
     "mapPreference": [
       "mixed",
@@ -1164,7 +1172,8 @@
       "jetpack_cat",
       "lucio",
       "tracer",
-      "winston"
+      "winston",
+      "hanzo"
     ],
     "mapPreference": [
       "open",
@@ -1225,7 +1234,9 @@
       "lucio",
       "sombra",
       "tracer",
-      "winston"
+      "winston",
+      "zarya",
+      "ana"
     ],
     "mapPreference": [
       "flank_routes",
@@ -1287,7 +1298,8 @@
       "ana",
       "ramattra",
       "sigma",
-      "zenyatta"
+      "zenyatta",
+      "echo"
     ],
     "mapPreference": [
       "long",
@@ -1407,7 +1419,8 @@
       "reinhardt",
       "symmetra",
       "torbjorn",
-      "zarya"
+      "zarya",
+      "cassidy"
     ],
     "mapPreference": [
       "chokepoints",
@@ -1544,7 +1557,8 @@
       "mauga",
       "mizuki",
       "moira",
-      "reinhardt"
+      "reinhardt",
+      "zarya"
     ],
     "mapPreference": [
       "close",
@@ -1595,7 +1609,8 @@
       "lucio",
       "mercy",
       "reinhardt",
-      "sigma"
+      "sigma",
+      "baptiste"
     ],
     "mapPreference": [
       "mixed",
@@ -1768,7 +1783,8 @@
       "dmon",
       "junker_queen",
       "mei",
-      "zarya"
+      "zarya",
+      "bastion"
     ],
     "mapPreference": [
       "chokepoints",
@@ -1894,7 +1910,8 @@
       "lucio",
       "sombra",
       "vendetta",
-      "winston"
+      "winston",
+      "sombra"
     ],
     "mapPreference": [
       "flank_routes",
@@ -2080,7 +2097,12 @@
       "orisa",
       "reinhardt",
       "sigma",
-      "soldier76"
+      "soldier76",
+      "ramattra",
+      "genji",
+      "roadhog",
+      "baptiste",
+      "juno"
     ],
     "mapPreference": [
       "mixed",
@@ -2130,7 +2152,10 @@
       "ramattra",
       "roadhog",
       "sigma",
-      "sojourn"
+      "sojourn",
+      "soldier76",
+      "ana",
+      "kiriko"
     ],
     "mapPreference": [
       "mixed",
@@ -2193,7 +2218,10 @@
     "synergizesWith": [
       "mauga",
       "reinhardt",
-      "wrecking_ball"
+      "wrecking_ball",
+      "zenyatta",
+      "junker_queen",
+      "juno"
     ],
     "mapPreference": [
       "close",
@@ -2297,7 +2325,10 @@
       "tracer",
       "vendetta",
       "venture",
-      "winston"
+      "winston",
+      "baptiste",
+      "reinhardt",
+      "juno"
     ],
     "mapPreference": [
       "flank_routes",
@@ -2470,7 +2501,9 @@
       "ashe",
       "pharah",
       "reinhardt",
-      "soldier76"
+      "soldier76",
+      "roadhog",
+      "zenyatta"
     ],
     "mapPreference": [
       "mixed",
@@ -2598,7 +2631,10 @@
       "pharah",
       "ramattra",
       "sigma",
-      "widowmaker"
+      "widowmaker",
+      "mercy",
+      "brigitte",
+      "juno"
     ],
     "mapPreference": [
       "mixed",
@@ -2938,7 +2974,8 @@
     "synergizesWith": [
       "kiriko",
       "lucio",
-      "tracer"
+      "tracer",
+      "zarya"
     ],
     "mapPreference": [
       "close",
@@ -3157,7 +3194,8 @@
       "echo",
       "genji",
       "tracer",
-      "winston"
+      "winston",
+      "juno"
     ],
     "mapPreference": [
       "open",
