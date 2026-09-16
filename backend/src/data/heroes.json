@@ -1420,7 +1420,8 @@
       "symmetra",
       "torbjorn",
       "zarya",
-      "cassidy"
+      "cassidy",
+      "domina"
     ],
     "mapPreference": [
       "chokepoints",
@@ -2760,7 +2761,8 @@
       "ashe",
       "orisa",
       "sigma",
-      "widowmaker"
+      "widowmaker",
+      "mei"
     ],
     "mapPreference": [
       "long",
