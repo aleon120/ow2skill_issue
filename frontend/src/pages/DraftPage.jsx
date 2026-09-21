@@ -120,15 +120,6 @@ export default function DraftPage({ mode }) {
           Formación {mode}: <strong>{roleLimits.tank}</strong> {ROLE_LABEL.tank}
           {roleLimits.tank > 1 ? "s" : ""} · <strong>{roleLimits.dps}</strong> {ROLE_LABEL.dps} ·{" "}
           <strong>{roleLimits.support}</strong> {ROLE_LABEL.support}.
-          {mode === "6v6" && (
-            <>
-              {" "}
-              Con dos tanques por equipo, el peso del matchup tanque-vs-tanque baja de x1.5 a{" "}
-              <strong>x1.3</strong> por héroe (la responsabilidad de pelear al tanque rival se reparte entre
-              los dos), y hay sinergias específicas entre parejas de tanques (ej. Reinhardt + Zarya, Zarya +
-              Winston, Orisa + Junker Queen).
-            </>
-          )}
         </p>
       )}
 
