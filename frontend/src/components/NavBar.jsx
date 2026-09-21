@@ -6,6 +6,7 @@ const TABS = [
   { id: "stadium", label: "Stadium" },
   { id: "personajes", label: "Personajes" },
   { id: "composiciones", label: "Composiciones" },
+  { id: "tierlist", label: "Tierlist" },
 ];
 
 export default function NavBar({ active, onChange }) {

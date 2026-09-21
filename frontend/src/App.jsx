@@ -5,6 +5,7 @@ import SixVSixPage from "./pages/SixVSixPage.jsx";
 import StadiumPage from "./pages/StadiumPage.jsx";
 import PersonajesPage from "./pages/PersonajesPage.jsx";
 import ComposicionesPage from "./pages/ComposicionesPage.jsx";
+import TierlistPage from "./pages/TierlistPage.jsx";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("calculo");
@@ -26,6 +27,7 @@ export default function App() {
       {activeTab === "stadium" && <StadiumPage />}
       {activeTab === "personajes" && <PersonajesPage />}
       {activeTab === "composiciones" && <ComposicionesPage />}
+      {activeTab === "tierlist" && <TierlistPage />}
 
       {/* TODO: reemplazá el href de acá abajo por tu link real de donaciones
           (Buy Me a Coffee, Ko-fi, PayPal.me, etc.) */}
